@@ -19,4 +19,3 @@ res = minimize(optimize_fun, [x0, y0])
 st.write("Optimization results:")
 st.write("x = ", res.x[0])
 st.write("y = ", res.x[1])
-streamlit run optimize_app.py
